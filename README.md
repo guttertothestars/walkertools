@@ -53,9 +53,7 @@ If a function feels confusing, it does not belong here yet.
 
 ---
 
-## Structure
-
-The structure may evolve, but the intent is to keep modules small and focused.
-
-Example:
-
+## Installation
+To install locally for development:
+```bash
+pip install -e .
