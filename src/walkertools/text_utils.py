@@ -2,7 +2,7 @@
 
 #__all__ keeps tab_complete clean. 
 # Use only functions you want to show up in tab complete
-__all__ = ['create_banner']
+__all__ = ['create_banner', 'print_blank_lines']
 
 def create_banner(text: str, char: str = "#", padding: int = 2) -> str:
     """
@@ -21,3 +21,8 @@ def create_banner(text: str, char: str = "#", padding: int = 2) -> str:
 
     spaces = " " * padding
     return f"{border}\n{char}{spaces}{text}{spaces}{char}\n{border}"
+
+
+def print_blank_lines(num_of_lines):
+    print("\n" * num_of_lines, end="")
+
