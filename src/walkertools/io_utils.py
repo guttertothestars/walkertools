@@ -1,6 +1,6 @@
 #Input/output utils, including some validation
 #import dependencies
-import os as _os
+import os 
 
 
 #__all__ keeps tab_complete clean. 
